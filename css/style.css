@@ -1,0 +1,94 @@
+body { /* Pone estilo a todo lo que hay en el div de la pagina index.html */
+    background-image: url(../img/kanto-map.jpeg); /* Para poner imagen de fondo */
+    color: white; /* Color del texto */
+    font-size: 35px; /* Tamaño de la fuente */
+    font-family: PixelifySans-VariableFont_wght; /* Especifica al body que fuente vamos a utilizar */
+}
+
+h1 { /* Pone estilos a los encabezados */
+    background-color: black; /* Hace que el fondo dell encabezado sea de color negro */
+    text-align: center; /* Centra el texto en medio de la pagina */
+}
+
+@font-face { /* Sirve para insertar una fuente de Google Font */
+    font-family: PixelifySans-VariableFont_wght; /* Especifica el nombre de la fuente */
+    src: url(../font-type/PixelifySans-VariableFont_wght.ttf); /* Especifica la URL de la carpeta donde se descargo previamente la fuente de Goggle Font */
+}
+
+p { /* Pone estilo a los parrafo */
+    background-color: rgba(0, 0, 0, 0.604); /* Inserta el fondo dle parrafo de color negro */
+}
+
+img {
+    margin: 5px; /* Ajusta el espacio entre imagenes */
+}
+
+.imagen-con-borde {
+    border: 2px solid #ffffff; /* Cambia el color y el grosor del borde */
+    padding: 5px; /* Opcional: Añadir espacio entre la imagen y el borde */
+    border-radius: 50px; /* Opcional: Hacer los bordes redondeados */
+}
+
+.fondo-color {
+    background-color: rgba(44, 52, 87, 0.432); /* Ajusta el color y la opacidad */
+}
+
+a { /* Da estilo a al enlace de la pagina principal */
+    color: rgb(56, 42, 250); /* Color del texto del enlace */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+}
+
+.centered-link { /* Pone color a los enlaces de las paginas html de cada pokemon */
+    display: block;
+    text-align: center;
+    color: white;
+    text-decoration: none; /* Elimina el subrayado del enlace */
+}
+
+.bordered-link { /* Añade un recuadro a la imagn de las paginas html de cada pokemon */
+    border: 2px solid white; /* Ajusta el color y el grosor del borde según tus necesidades */
+    padding: 10px; /* Añade espacio entre el texto y el borde */
+    border-radius: 5px; /* Opcional: Hacer los bordes redondeados */
+}
+
+#body-axew { /* Aañade de forma exclusiba fondo y su respectiva configuracion a axew.html */
+    background-image: url(../img/fondo-axew.png);
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen en el fondo */
+}
+
+#body-fraxure { /* Aañade de forma exclusiba fondo y su respectiva configuracion a fraxure.html */
+    background-image: url(../img/fondo-axew.png);
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen en el fondo */
+}
+
+#body-haxorus { /* Aañade de forma exclusiba fondo y su respectiva configuracion a haxorus.html */
+    background-image: url(../img/fondo-axew.png);
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen en el fondo */
+}
+
+#body-cyndaquil { /* Aañade de forma exclusiba fondo y su respectiva configuracion a cyndaquil.html */
+    background-image: url(../img/fondo-cyndaquil-growthel.png);
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen en el fondo */
+}
+
+#body-quilava { /* Aañade de forma exclusiba fondo y su respectiva configuracion a quilava.html */
+    background-image: url(../img/fondo-cyndaquil-growthel.png);
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen en el fondo */
+}
+
+#body-typhlosion { /* Aañade de forma exclusiba fondo y su respectiva configuracion a typhlosion.html */
+    background-image: url(../img/fondo-cyndaquil-growthel.png);
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen en el fondo */
+}
