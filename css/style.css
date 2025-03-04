@@ -8,6 +8,8 @@ body { /* Pone estilo a todo lo que hay en el div de la pagina index.html */
 h1 { /* Pone estilos a los encabezados */
     background-color: black; /* Hace que el fondo dell encabezado sea de color negro */
     text-align: center; /* Centra el texto en medio de la pagina */
+    margin-left: 200px; /* Ajusta el color de fondo al texto del lado izquierdo */
+    margin-right: 200px; /* Ajusta el color de fondo al texto de lado derecho */
 }
 
 @font-face { /* Sirve para insertar una fuente de Google Font */
@@ -16,7 +18,7 @@ h1 { /* Pone estilos a los encabezados */
 }
 
 p { /* Pone estilo a los parrafo */
-    background-color: rgba(0, 0, 0, 0.604); /* Inserta el fondo dle parrafo de color negro */
+    background-color: rgba(0, 0, 0, 0.604); /* Inserta el fondo del parrafo de color negro */
 }
 
 img {
@@ -29,12 +31,12 @@ img {
     border-radius: 50px; /* Opcional: Hacer los bordes redondeados */
 }
 
-.fondo-color {
+.fondo-color { /* Pone color de fondo al enlace */
     background-color: rgba(44, 52, 87, 0.432); /* Ajusta el color y la opacidad */
 }
 
 a { /* Da estilo a al enlace de la pagina principal */
-    color: rgb(56, 42, 250); /* Color del texto del enlace */
+    color: rgb(0, 0, 0); /* Color del texto del enlace */
     text-decoration: none; /* Elimina el subrayado del enlace */
 }
 
@@ -87,6 +89,41 @@ a { /* Da estilo a al enlace de la pagina principal */
 }
 
 #body-typhlosion { /* Aañade de forma exclusiba fondo y su respectiva configuracion a typhlosion.html */
+    background-image: url(../img/fondo-cyndaquil-growthel.png);
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen en el fondo */
+}
+
+#body-mudpik {
+    background-image: url(../img/fondo-mudpik.png);
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen en el fondo */
+}
+
+#body-marshtomp {
+    background-image: url(../img/fondo-mudpik.png);
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen en el fondo */
+}
+
+#body-swampert {
+    background-image: url(../img/fondo-mudpik.png);
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen en el fondo */
+}
+
+#body-growlithe {
+    background-image: url(../img/fondo-cyndaquil-growthel.png);
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen en el fondo */
+}
+
+#body-arcanine {
     background-image: url(../img/fondo-cyndaquil-growthel.png);
     background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
