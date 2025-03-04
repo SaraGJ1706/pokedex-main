@@ -2,7 +2,7 @@ body { /* Pone estilo a todo lo que hay en el div de la pagina index.html */
     background-image: url(../img/kanto-map.jpeg); /* Para poner imagen de fondo */
     color: white; /* Color del texto */
     font-size: 35px; /* Tamaño de la fuente */
-    font-family: PixelifySans-VariableFont_wght; /* Especifica al body que fuente vamos a utilizar */
+    font-family: Jersey10-Regular; /* Especifica al body que fuente vamos a utilizar */
 }
 
 h1 { /* Pone estilos a los encabezados */
@@ -13,8 +13,8 @@ h1 { /* Pone estilos a los encabezados */
 }
 
 @font-face { /* Sirve para insertar una fuente de Google Font */
-    font-family: PixelifySans-VariableFont_wght; /* Especifica el nombre de la fuente */
-    src: url(../font-type/PixelifySans-VariableFont_wght.ttf); /* Especifica la URL de la carpeta donde se descargo previamente la fuente de Goggle Font */
+    font-family: Jersey10-Regular; /* Especifica el nombre de la fuente */
+    src: url(../font-type/Jersey10-Regular.ttf); /* Especifica la URL de la carpeta donde se descargo previamente la fuente de Goggle Font */
 }
 
 p { /* Pone estilo a los parrafo */
